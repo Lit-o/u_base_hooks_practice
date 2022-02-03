@@ -37,7 +37,7 @@ const Slider = (props) => {
     const [autoplay, setAutoplay] = useState(false);
 
     // так же можно еще и сохранять предидущее состояние
-    // записываем предидущее состояние slideState в myRefValueVault
+    // записываем предидущее состояние slideState в myRefValueVault  
     useEffect(() => {
         myRefValueVault.current = slideState
     })
